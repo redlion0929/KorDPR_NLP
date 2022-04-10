@@ -234,7 +234,7 @@ if __name__ == '__main__':
     if parsed_args.mode == 'train':
         dpr_train.train()
     else:
-        inf = inference(args, dpr_train.model, 'kdpr_index')
+        inf = inference(args, dpr_train.model)
         top_5, top_20, top_100 = inf.test_retriever()
         print("top_5", top_5)
         print("top_20", top_20)
