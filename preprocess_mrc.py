@@ -2,7 +2,6 @@ import transformers
 from datasets import Dataset
 from transformers import BertModel, BertTokenizerFast, Trainer, TrainingArguments
 import torch
-from setproctitle import setproctitle
 from datasets import load_from_disk, load_dataset
 from tqdm import tqdm
 from rank_bm25 import BM25Okapi
