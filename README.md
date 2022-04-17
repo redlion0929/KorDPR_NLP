@@ -14,7 +14,7 @@
 
 ## DPR이란?
 
-DPR이란 BERT 기반 bi-encoder 구조를 사용하여 open-domain에서 questin을 풀기 위한 passage를 찾아 주는 모델이다. 
+DPR이란 BERT 기반 bi-encoder 구조를 사용하여 open-domain에서 question을 풀기 위한 passage를 찾아 주는 모델이다. 
 DPR의 등장은 간단한 BERT 구조만을 가지고도 좋은 성능의 retriever를 만들 수 있음을 증명하였다. 
 학습 시에는 in-batch negative training 전략을 사용하여 효율적인 학습을 진행하였으며, inference시에는 [faiss](https://github.com/facebookresearch/faiss) 를 사용하여 빠른 처리가 가능하도록 하였다.
 
