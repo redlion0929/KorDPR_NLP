@@ -20,6 +20,8 @@ DPR의 등장은 간단한 BERT 구조만을 가지고도 좋은 성능의 retri
 
 본 repository에서는 이러한 원리의 DPR을 직접 구현해보고, 한국어 데이터셋을 가지고 fine-tuning 하였다. 학습에는 [AI Hub](https://aihub.or.kr/aihub-data/natural-language/about) 에서 제공하는 기계독해, 도서자료 기계독해 데이터셋을 사용하였다.
 
+`klue/bert-base`모델을 사용하여 학습을 진행하였다.
+
 ## 데이터 셋 (Dataset)
 
 기계독해, 도서자료 기계독해 데이터 셋을 사용하였으며, 각 데이터 셋을 처리할 때 아래와 같은 방법을 사용하였다.
