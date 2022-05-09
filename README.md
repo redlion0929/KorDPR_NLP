@@ -44,9 +44,9 @@ Faiss를 사용하여 34,000여 개의 passage과 데이터 셋 내의 각 quest
 
 | Top k   | Accuracy |
 |:--------|:--------:|
-| Top 100 |   56.8   |
+| Top 100 |   93.8   |
 | Top 20  |   80.9   |
-| Top 5   |   93.8   |
+| Top 5   |   56.8   |
 
 ## Evaluation Setting
 아래와 같은 라이브러리를 사용하여 실험을 진행하였다.
